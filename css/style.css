@@ -139,7 +139,8 @@ body {
   background-color: #fff;
   color: #fff; }
   .btn--white::after {
-    background-color: #fff; }
+    background-color: #fff;
+    z-index: -1; }
 
 .btn--green {
   background-color: #55c57a;
@@ -156,7 +157,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -2;
+  z-index: -1;
   transition: all 0.4s; }
 
 .btn--animated {
